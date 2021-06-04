@@ -14,7 +14,7 @@ import {
 //pages
 import MainPage from "./pages";
 import NotFoundPage from "./pages/404";
-import competition from "./pages/competition";
+import competition from "./components/Competition/competition.jsx";
 import Gallery from "./components/Gallery/gallery";
 
 

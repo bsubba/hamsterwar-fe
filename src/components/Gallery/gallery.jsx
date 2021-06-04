@@ -12,7 +12,6 @@ import './gallery.css';
 const Gallery = () => {
   const [hamsters, setHamsters] = useState();
   
-  console.log('data: ', hamsters)
    const fetchData = useCallback(() => {
     axios({
       "method": "GET",
@@ -76,11 +75,6 @@ const Gallery = () => {
           < button className='form-input-btn'><Link to='/add-hamster'>Add Hamster</Link></button>
         </div>
       <div className="row">
-        
-          {/* { showForm ? renderForm() : null } */}
-
-        
-          
           <div className="list"> 
               { hamsters && renderHamster() }
           </div>
