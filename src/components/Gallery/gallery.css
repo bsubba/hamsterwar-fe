@@ -1,0 +1,47 @@
+.container {
+  padding: 0 3rem;
+}
+
+.form-panel {
+  /* padding-bottom: 4rem; */
+}
+
+.img-responsive {
+  height: 100%;
+  width: 80%;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  border: 1px black;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.image-wrapper {
+  padding: 10px;
+  text-align: center;
+}
+
+
+.box1:hover{
+  background-color:whitesmoke;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.infoBox {
+  width: 200px;
+  height: 80px;
+  padding: 8px;
+  background-color: #222;
+  color: #fff;
+  display: none;
+}
+
+.box1.show .infoBox {
+  display: block;
+}
